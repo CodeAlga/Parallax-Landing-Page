@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Parallax Landing Page</title>
+  </head>
+  <body>
+    <section class="section-top">
+      <div class="content rellax" data-rellax-speed="5">
+        <h1>Parllax Effect Landing Page</h1>
+        <a href="#" class="btn">Learn More</a>
+      </div>
+    </section>
+
+    <section class="section-stream">
+      <img
+        src="./pngfuel.png"
+        alt="play"
+        class="play rellax"
+        data-rellax-speed="-2"
+        data-rellax-xs-speed="2"
+      />
+      <div
+        class="content rellax"
+        data-rellax-speed="9"
+        data-rellax-xs-speed="5"
+      >
+        <div>
+          <h2 class="secondary-text">Code Everything</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consequuntur ipsa necessitatibus, nihil aliquam iste autem
+            perferendis, corporis incidunt obcaecati molestiae a praesentium
+            animi illo, dolore eius. A deleniti voluptas odit?
+          </p>
+        </div>
+        <div>
+          <h2 class="secondary-text">Power Everything</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consequuntur ipsa necessitatibus, nihil aliquam iste autem
+            perferendis, corporis incidunt obcaecati molestiae a praesentium
+            animi illo, dolore eius. A deleniti voluptas odit?
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-grid">
+      <div class="rellax" data-rellax-speed="0" data-rellax-xs-speed="4">
+        <i class="fas fa-video fa-3x secondary-text"></i>
+        <h2>Watch<span class="secondary-text dot">.</span></h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus
+          dolorum quae reiciendis. Minima, quas. Tenetur necessitatibus veniam
+          nam officiis placeat quibusdam accusantium obcaecati aut neque illum,
+          tempore, dolorem dolorum autem!
+        </p>
+      </div>
+      <div class="rellax" data-rellax-speed="4" data-rellax-xs-speed="3">
+        <i class="fas fa-users fa-3x secondary-text"></i>
+        <h2>Share<span class="secondary-text dot">.</span></h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus
+          dolorum quae reiciendis. Minima, quas. Tenetur necessitatibus veniam
+          nam officiis placeat quibusdam accusantium obcaecati aut neque illum,
+          tempore, dolorem dolorum autem!
+        </p>
+      </div>
+      <div class="rellax" data-rellax-speed="8" data-rellax-xs-speed="2">
+        <i class="fas fa-book fa-3x secondary-text"></i>
+        <h2>Learn<span class="secondary-text dot">.</span></h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus
+          dolorum quae reiciendis. Minima, quas. Tenetur necessitatibus veniam
+          nam officiis placeat quibusdam accusantium obcaecati aut neque illum,
+          tempore, dolorem dolorum autem!
+        </p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <ul>
+        <li><a href="#">Faq</a></li>
+        <li><a href="#">Terms Of Use</a></li>
+        <li><a href="#">Privacy Notice</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">About Us</a></li>
+      </ul>
+    </footer>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"
+      integrity="sha256-+xf9aJnHocnmrigq2hIDJGBSAnJdF5NH+Ooe5J2PHiI="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      //Init Relax
+      let rellax = new Rellax(".rellax", {
+        center: false,
+        round: true,
+        vertical: true,
+        horizontal: false
+      });
+    </script>
+  </body>
+</html>
